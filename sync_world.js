@@ -6,4 +6,4 @@ process.on('SIGTERM', () => {
   process.exit(0);
 });
 
-setInterval(uploadWorld, 4 * 3600 * 1000); // 4 hours
+setInterval(uploadWorld, 5*60*1000);//4 * 3600 * 1000); // 4 hours
